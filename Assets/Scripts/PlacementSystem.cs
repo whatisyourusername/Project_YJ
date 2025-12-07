@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class PlacementSystem : MonoBehaviour
 {
+    /*
     [SerializeField]
     private InputManager inputManager;
     [SerializeField]
@@ -110,11 +111,11 @@ public class PlacementSystem : MonoBehaviour
             return;
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
-        if (lastDetectedPosition != gridPosition)
+        if (lastDetectedPosition !  = gridPosition)
         {
             buildingState.UpdateState(gridPosition);
             lastDetectedPosition = gridPosition;
         }
 
-    }
+    }*/
 }
